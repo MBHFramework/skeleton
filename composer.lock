@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "eeee2cf095ba29cd3ceb47ab9d57d549",
+    "content-hash": "55fceb61b8852b870b386597c4b1bc78",
     "packages": [
         {
             "name": "league/plates",
@@ -63,16 +63,16 @@
         },
         {
             "name": "mbh-framework/rest",
-            "version": "dev-master",
+            "version": "dev-development",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MBHFramework/mbh-framework.git",
-                "reference": "d27a22257581275ff151ce5bc770c2b198f1294d"
+                "reference": "d140572f70d584f67787fffe09cde998b833692d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MBHFramework/mbh-framework/zipball/d27a22257581275ff151ce5bc770c2b198f1294d",
-                "reference": "d27a22257581275ff151ce5bc770c2b198f1294d",
+                "url": "https://api.github.com/repos/MBHFramework/mbh-framework/zipball/d140572f70d584f67787fffe09cde998b833692d",
+                "reference": "d140572f70d584f67787fffe09cde998b833692d",
                 "shasum": ""
             },
             "require": {
@@ -81,6 +81,11 @@
                 "twig/twig": "2.0"
             },
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mbh\\": "Mbh"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -92,7 +97,7 @@
                 }
             ],
             "description": "Minimalist framework to create RESTFull Apps with php7.",
-            "time": "2017-09-02T20:48:09+00:00"
+            "time": "2017-09-02T21:10:42+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
