@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "55fceb61b8852b870b386597c4b1bc78",
+    "content-hash": "746871a375eb4f58a8c9a1cd772d5654",
     "packages": [
         {
             "name": "league/plates",
@@ -63,16 +63,16 @@
         },
         {
             "name": "mbh-framework/rest",
-            "version": "dev-development",
+            "version": "1.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/MBHFramework/mbh-framework.git",
-                "reference": "d140572f70d584f67787fffe09cde998b833692d"
+                "url": "https://github.com/MBHFramework/mbh-rest.git",
+                "reference": "5bda82ea01d17598eabd3183f4f55019ed84fe1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MBHFramework/mbh-framework/zipball/d140572f70d584f67787fffe09cde998b833692d",
-                "reference": "d140572f70d584f67787fffe09cde998b833692d",
+                "url": "https://api.github.com/repos/MBHFramework/mbh-rest/zipball/5bda82ea01d17598eabd3183f4f55019ed84fe1c",
+                "reference": "5bda82ea01d17598eabd3183f4f55019ed84fe1c",
                 "shasum": ""
             },
             "require": {
@@ -97,7 +97,7 @@
                 }
             ],
             "description": "Minimalist framework to create RESTFull Apps with php7.",
-            "time": "2017-09-02T21:10:42+00:00"
+            "time": "2017-09-02T22:00:01+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
