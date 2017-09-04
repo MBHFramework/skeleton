@@ -13,6 +13,7 @@
         "url": "git+https://github.com/MBHFramework/skeleton.git"
     },
     "require": {
-        "mbh-framework/rest": "1.x-dev"
+        "mbh-framework/rest": "1.x-dev",
+        "mbh-framework/mvc": "1.x-dev"
     }
 }

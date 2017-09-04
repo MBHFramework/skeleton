@@ -4,8 +4,44 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "746871a375eb4f58a8c9a1cd772d5654",
+    "content-hash": "69f76d0482cce73b527560782f1d13b7",
     "packages": [
+        {
+            "name": "mbh-framework/mvc",
+            "version": "1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MBHFramework/mbh-mvc.git",
+                "reference": "250b0b380ec41112388b0e371c9641cb15f314ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MBHFramework/mbh-mvc/zipball/250b0b380ec41112388b0e371c9641cb15f314ce",
+                "reference": "250b0b380ec41112388b0e371c9641cb15f314ce",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mbh\\": "Mbh"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ulises Jeremias Cornejo Fandos",
+                    "email": "ulisescf.24@gmail.com"
+                }
+            ],
+            "description": "Minimalist framework to create MVC Apps with php7.",
+            "time": "2017-09-02T22:04:12+00:00"
+        },
         {
             "name": "mbh-framework/rest",
             "version": "1.x-dev",
@@ -47,7 +83,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "mbh-framework/rest": 20
+        "mbh-framework/rest": 20,
+        "mbh-framework/mvc": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
