@@ -5,8 +5,6 @@ require __DIR__ . '/config/config.php';
 
 $app = new \Mbh\App;
 
-$app->any('/', function() {
-    return "MBHFramework is working!";
-});
+require __DIR__ . '/routes.php';
 
 $app->run();
